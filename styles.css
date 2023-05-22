@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 ::-webkit-scrollbar {
@@ -49,6 +49,11 @@ nav {
 
   overflow-y: scroll;
   animation: entering 0.9s ease-in-out;
+
+  background-image: url("./assets/background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
 .memory {
